@@ -18,7 +18,7 @@ var NodeGeocoder = require("node-geocoder");
 var options = {
   provider: 'google',
   httpAdapter: 'https',
-  apiKey: 'AIzaSyCsWvwmI4WZCDDATRAcfgzwFVfXuNOM3Do',
+  apiKey: process.env.GEOCODER_API_KEY,
   formatter: null
 };
 
@@ -113,7 +113,6 @@ router.post("/landmarkObjects", isLoggedIn, function(req, res) {
   //geocode the longitude and latitude points based on address
   geocoder.geocode(location, function(err, data){
     if(err){
-      alert("you have inputted an incorrect location, or something went down in our servers");
       res.redirect("/upload");
     }else{
       var latitude = data[0].latitude;

@@ -5,6 +5,7 @@ Last Edited: November 24, 2019
 Version: 1.0
 */
 
+require('dotenv').config();
 //Require and use express
 var express = require("express");
 var app = express();
