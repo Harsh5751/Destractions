@@ -1,7 +1,7 @@
 # Destractions
 An app that allows users to add landmarks and tourist attractions built with node.js and mongodb.
 
-VIEW HERE - https://patelh75-bradenm-comp4ww3.herokuapp.com/
+VIEW HERE - https://destractions.herokuapp.com/
 
 sample Username: Darkace77
 
