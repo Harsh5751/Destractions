@@ -1,10 +1,3 @@
-/*
-File: Upload.js
-Authors: Harsh Patel, Matthew Braden
-Last Edited: October 18, 2019
-Version: 2.0
-*/
-
 //Location Autofill with google maps API
 function init() {
   var input = document.getElementById('location');
