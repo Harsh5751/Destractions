@@ -1,10 +1,3 @@
-/*
-File: Seacrh.js
-Authors: Harsh Patel, Matthew Braden
-Last Edited: October 18, 2019
-Version: 2.0
-*/
-
 //Initialize Google Autocomplete
 function init() {
   var input = document.getElementById('Search');
