@@ -1,10 +1,3 @@
-/*
-File: SignUp.js
-Authors: Harsh Patel, Matthew Braden
-Last Edited: October 18, 2019
-Version: 2.0
-*/
-
 //Initializes Sidenav
 $(document).ready(function() {
   $('.sidenav').sidenav();
