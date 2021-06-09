@@ -1,10 +1,3 @@
-/*
-File: landmarkAttractions.js
-Authors: Harsh Patel, Matthew Braden
-Last Edited: November 24, 2019
-Version: 1.0
-*/
-
 //require express
 var express = require("express");
 //require router
