@@ -1,10 +1,3 @@
-/*
-File: login.js
-Authors: Harsh Patel, Matthew Braden
-Last Edited: October 18, 2019
-Version: 2.0
-*/
-
 //Trigger sidenav
 $(document).ready(function() {
   $('.sidenav').sidenav();
