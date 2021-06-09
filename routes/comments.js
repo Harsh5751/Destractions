@@ -1,10 +1,3 @@
-/*
-File: comments.js
-Authors: Harsh Patel, Matthew Braden
-Last Edited: November 24, 2019
-Version: 1.0
-*/
-
 //Require express and router
 var express = require("express");
 var router = express.Router();
