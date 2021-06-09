@@ -1,10 +1,3 @@
-/*
-File: IndividualObject.js
-Authors: Harsh Patel, Matthew Braden
-Last Edited: November 18, 2019
-Version: 3.0
-*/
-
 //Initializes Side Nav
 $(document).ready(function() {
   $('.sidenav').sidenav();
